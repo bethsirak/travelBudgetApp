@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/travelBudgetApp/static/css/main.073c9b0a.css",
-    "main.js": "/travelBudgetApp/static/js/main.0e314a32.js",
+    "main.css": "/travelBudgetApp/static/css/main.183c7bc6.css",
+    "main.js": "/travelBudgetApp/static/js/main.46cb6390.js",
     "static/js/787.bc7d429a.chunk.js": "/travelBudgetApp/static/js/787.bc7d429a.chunk.js",
-    "static/media/logo.svg": "/travelBudgetApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/travelBudgetApp/index.html",
-    "main.073c9b0a.css.map": "/travelBudgetApp/static/css/main.073c9b0a.css.map",
-    "main.0e314a32.js.map": "/travelBudgetApp/static/js/main.0e314a32.js.map",
+    "main.183c7bc6.css.map": "/travelBudgetApp/static/css/main.183c7bc6.css.map",
+    "main.46cb6390.js.map": "/travelBudgetApp/static/js/main.46cb6390.js.map",
     "787.bc7d429a.chunk.js.map": "/travelBudgetApp/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0e314a32.js"
+    "static/css/main.183c7bc6.css",
+    "static/js/main.46cb6390.js"
   ]
 }
