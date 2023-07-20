@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Budget App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick Access
 
-## Available Scripts
+Explore the live Budget App [here :)](https://bethsirak.github.io/travelBudgetApp/)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Styling](#styling)
+- [Ignored Files](#ignored-files)
+- [Contributions](#contributions)
+- [How to Use](#how-to-use)
+- [Feedback and Future Improvements](#feedback-and-future-improvements)
+- [Quick Access](#quick-access)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a simple Budget App that allows users to track their expenses and manage their budget effectively.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Set Budget**: Users can enter the total budget amount and set their budget.
+- **Add Expenses**: Users can add expenses with names and amounts to keep track of their spending.
+- **Edit or Delete Expenses**: Users can edit or delete expenses as needed.
+- **Track Expenses**: The app displays the total expenses and the remaining balance based on the set budget.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Budget App on your local machine, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository to your local machine:
 
-### `npm run eject`
+`git clone <repository-url>`
+`npm install`
+`npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app should now be running on http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app uses custom CSS for styling, which is defined in the `index.css` file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Ignored Files
 
-## Learn More
+The following files and directories are ignored by Git:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `/node_modules`: The folder containing the installed npm packages.
+- `/build`: Folder containing production build files.
+- `.DS_Store`: macOS system file that stores folder attributes.
+- `.env.local`, `.env.development.local`, `.env.test.local`, `.env.production.local`: Environment variable files specific to different environments.
+- `npm-debug.log*`, `yarn-debug.log*`, `yarn-error.log*`: Logs from npm or yarn.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributions
 
-### Code Splitting
+Contributions to the project are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Thank you for using the Budget App! If you have any questions or need further assistance, please don't hesitate to reach out. Happy budgeting!
 
-### Analyzing the Bundle Size
+## How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Set Budget:**
 
-### Making a Progressive Web App
+1. Enter the total budget amount in the input field under "Set Budget" and click the "Set Budget" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Add Expenses:**
 
-### Advanced Configuration
+1. Enter the expense name and amount in the input fields under "Add Expenses."
+2. Click the "Add Expense" button to add the expense to the list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Edit or Delete Expenses:**
 
-### Deployment
+1. Each expense in the list has edit and delete buttons.
+2. Click the "Edit" button to modify the expense name and amount.
+3. Click the "Delete" button to remove the expense from the list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Track Expenses:**
 
-### `npm run build` fails to minify
+The app will display the total expenses and the remaining balance based on the set budget.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Feedback and Future Improvements
+
+I found this project to be a great learning experience while working with React and managing budgets and expenses. Some future improvements that I have in mind for the Budget App are:
+
+- Enhancing the user interface with more intuitive styling and visual feedback.
+- Adding user authentication to allow multiple users to have their separate budgets and expenses.
+- Implementing data persistence to store budget and expense data even after the user
+
+
+
